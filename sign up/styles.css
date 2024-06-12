@@ -1,0 +1,148 @@
+.bg1{
+    display: flex;
+    gap: 0;
+    height: 90vh;
+    width: 90vw;
+    margin: auto;
+    padding: 40px;
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(to right,rgb(22, 86, 188),rgb(0, 18, 44));
+    
+}
+
+
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./xLED-lighting-street-luminaire-AEC-Illuminazione-1-1000x1000.jpg.pagespeed.ic.epcnmq9Vp-.webp);
+    background-position: center center ;
+    background-size:cover;
+    background-repeat: no-repeat;
+   
+}
+.login{
+    height: 100%;
+    width: 30vw;
+    background-color: white;
+    position: relative;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    position: relative;
+    bottom: 1vh;
+}
+.nav{
+    height: 10%;
+    width: 100%;
+    margin-top: 10%;
+    position: relative;
+    bottom: 5%;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-section{
+    position: relative;
+left: 25%;
+
+
+}
+.is-input{
+    margin-bottom: 5%;
+    height: 30px;
+    width: 200px;
+     border-color: rgb(35, 139, 212); 
+    border-radius: 20px;
+    padding: 1vw;
+}
+.social button{
+    background-color: transparent;
+   border: none;
+   cursor: pointer;
+}
+.social{
+    position:relative;
+    left: 26%;
+    display: flex;
+    gap: 8%;
+    margin-top: 20%;
+}
+.social button img{
+    border-radius: 100px;
+}
+.big-box{
+    position: relative;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+::placeholder{
+    color: black;
+    font-family: "Roboto",sans-serif;
+}
+.logo{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 5%;
+    top: 5%;
+    border-radius: 50%;
+}
+.rm{
+    position: relative;
+    bottom: 1px;
+    font-size: 0.9rem;
+    font-family: "Roboto",serif;
+}
+.sm-btn{
+    font-family: "Roboto",serif;
+    background-color: rgb(35, 139, 212);
+    cursor: pointer;
+    text-align: center;
+}
+.title{
+    position: relative;
+    bottom: 50px;
+    left: 7%;
+    margin-top: 35px;
+    font-size:50px;
+    color:rgb(35, 139, 212);
+    font-family: "Bebas Neue";
+}
+.log{
+    position: relative;
+    left: 0px;
+}
+.heading{
+    font-size: x-large;
+    position: relative;
+    left: 11%;
+    bottom: 55%;
+    font-family:"Cabin";
+    font-weight:bold; 
+}
+.para{
+    position: relative;
+    bottom: 30px;
+    right: 10px;
+    font-family: "DM Sans";
+    font-size: smaller;
+}
+.container2{
+    
+    height: 100%;
+    width: 70vw;
+    background-image: url(./item/image.jpg);
+    background-size:cover; 
+background-repeat: no-repeat;
+border-top-right-radius: 25px;
+border-bottom-right-radius: 25px;
+position: relative;
+bottom: 1vh;
+    
+
+    
+}
