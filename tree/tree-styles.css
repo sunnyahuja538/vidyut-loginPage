@@ -1,0 +1,136 @@
+
+
+.container
+{
+    height: 95vh;
+    width: 100vw;
+    position: relative;
+    background:  linear-gradient(to right,rgb(22, 86, 188),rgb(0, 18, 44));
+    
+    
+}
+.table{
+    width: 95vw;
+    height: 90vh;
+    position: relative;
+    left: 1.5vw;
+    top: 2.5vh;
+    background-size: cover;
+    background-color: white;
+    background-image: url(./asset/close-up-of-hands-holding-young-plant-in-soil-earth-day-concept-hands-of-diverse-people-holding-a-seedling-in-the-soil-together-ai-generated-free-photo.jpg);
+
+   
+
+}
+.trees2{
+    height: 60vh;
+    width: 70vw;
+    display: grid;
+    grid-template-columns:repeat(1,60vw);
+    grid-template-rows: repeat(6,10vh);
+    row-gap: px;
+    position: relative;
+    left: 17vw;
+    bottom: 20vh;
+}
+.tree{
+    display: flex;
+    padding: 0.5vw;
+    justify-content: space-between;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    z-index: 1;
+    color: white; 
+    
+}
+
+.buttons>:nth-child(1){
+border: white;
+border-radius: 10px;
+height: 4vh;
+width: fit-content;
+background: linear-gradient(360deg,white ,rgb(12, 159, 239) );
+padding-bottom: 0.5vh;
+font-family: "Roboto";
+font-weight: bolder;
+position: relative;
+    bottom: 0.5vh;
+    margin-right: 1.5vw;
+}
+.buttons>:nth-child(2){
+    border: white;
+    border-radius: 10px;
+    height: 4vh;
+    width: fit-content;
+    position: relative;
+    background:linear-gradient(0deg,white,grey);
+    bottom: 1vh;
+    font-family: "Roboto";
+    font-weight: bolder;
+
+
+    }
+    .tree-name{
+    font-family: "Roboto";
+    font-size: 4vh;
+    margin-top: 1.2vh;
+    position: relative;
+    right: 14.5vw;
+    font-weight: bolder;
+    }
+    .tree-name1{
+        font-family: "Roboto";
+    font-size: 4vh;
+    margin-top: 1.2vh;
+    position: relative;
+    right: 15vw;
+    font-weight: bolder;
+    }
+    .tree-name2{
+        font-family: "Roboto";
+    font-size: 4vh;
+    margin-top: 1.2vh;
+    position: relative;
+    right: 12.3vw;
+    font-weight: bolder;
+    }
+    .tree-name3{
+        font-family: "Roboto";
+    font-size: 4vh;
+    margin-top: 1.2vh;
+    position: relative;
+    right: 15.5vw;
+    font-weight: bolder;
+    }
+    .heading1{
+        font-family: "Bebas Neue";
+        position: relative;
+        top: 0vh;
+        left: 36vw;
+        font-size: 3.5vw;
+        color: white;
+    }
+    .heading2{
+        font-family: "Bebas Neue";
+        font-size: 3.5vw;
+        position: relative;
+        bottom: 12vh;
+        left: 45vw;
+        color: white;
+    }
+    .Payment-btn{
+        background-color: white;
+        width: fit-content;
+        height: 6vh;
+        position: relative;
+        margin: auto;
+        border-radius: 25px;
+        border-color: transparent;
+        margin-top: 5vh;
+        font-family: "Roboto";
+        font-weight: 1000;
+        font-size: larger;
+        color: rgb(36, 115, 242);
+    }
+    
+    

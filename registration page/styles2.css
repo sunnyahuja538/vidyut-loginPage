@@ -104,6 +104,14 @@ left: 21%;
     cursor: pointer;
     text-align: center;
 }
+.or{
+    font-family: sans-serif;
+    font-size: smaller;
+    position: relative;
+    top: 10px;
+    left: 110px;
+    color: rgb(15, 14, 14);
+}
 .title{
     position: relative;
     bottom: 50px;
@@ -144,7 +152,23 @@ border-top-right-radius: 25px;
 border-bottom-right-radius: 25px;
 position: relative;
 bottom: 1vh;
-    
-
-    
+}
+.google-btn{
+    font-family: "Roboto",serif;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(35, 139, 212);
+    border-radius: 10px;
+    height: 35px;
+    width: 180px;
+    position: relative;
+    left: 30px;
+    position: relative;
+    padding-bottom: 10px;
+}
+.google-icon{
+    height: 20px;
+    width: 25px;
+    position: relative;
+    top: 5px;
 }
