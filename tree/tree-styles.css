@@ -1,136 +1,174 @@
-
-
-.container
-{
-    height: 95vh;
-    width: 100vw;
-    position: relative;
-    background:  linear-gradient(to right,rgb(22, 86, 188),rgb(0, 18, 44));
-    
-    
-}
-.table{
-    width: 95vw;
-    height: 90vh;
-    position: relative;
-    left: 1.5vw;
-    top: 2.5vh;
-    background-size: cover;
-    background-color: white;
-    background-image: url(./asset/close-up-of-hands-holding-young-plant-in-soil-earth-day-concept-hands-of-diverse-people-holding-a-seedling-in-the-soil-together-ai-generated-free-photo.jpg);
-
-   
-
-}
-.trees2{
-    height: 60vh;
-    width: 70vw;
-    display: grid;
-    grid-template-columns:repeat(1,60vw);
-    grid-template-rows: repeat(6,10vh);
-    row-gap: px;
-    position: relative;
-    left: 17vw;
-    bottom: 20vh;
-}
-.tree{
+/* Navbar styling */
+.navbar {
+    width: 100%;
+    padding: 1rem 0;
+    background: linear-gradient(to right, rgb(22, 86, 188), rgb(0, 18, 44));
     display: flex;
-    padding: 0.5vw;
-    justify-content: space-between;
-    background-color: transparent;
-    border-bottom: 2px solid white;
-    z-index: 1;
-    color: white; 
-    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.buttons>:nth-child(1){
-border: white;
-border-radius: 10px;
-height: 4vh;
-width: fit-content;
-background: linear-gradient(360deg,white ,rgb(12, 159, 239) );
-padding-bottom: 0.5vh;
-font-family: "Roboto";
-font-weight: bolder;
-position: relative;
-    bottom: 0.5vh;
-    margin-right: 1.5vw;
+.heading1, .heading2 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
 }
-.buttons>:nth-child(2){
-    border: white;
+
+.heading1 {
+    font-size: 2.5rem;
+}
+
+.heading2 {
+    font-size: 2rem;
+}
+
+/* Container styling */
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f0f0f0;
+    min-height: 80vh;
+}
+
+/* Table styling */
+.table {
+    width: 100%;
+    max-width: 1000px;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 24px 21px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Tree grid styling */
+.trees2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Individual tree item styling */
+.tree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 1rem;
     border-radius: 10px;
-    height: 4vh;
-    width: fit-content;
-    position: relative;
-    background:linear-gradient(0deg,white,grey);
-    bottom: 1vh;
-    font-family: "Roboto";
-    font-weight: bolder;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
 
+.tree-image {
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
 
-    }
-    .tree-name{
-    font-family: "Roboto";
-    font-size: 4vh;
-    margin-top: 1.2vh;
-    position: relative;
-    right: 14.5vw;
-    font-weight: bolder;
-    }
-    .tree-name1{
-        font-family: "Roboto";
-    font-size: 4vh;
-    margin-top: 1.2vh;
-    position: relative;
-    right: 15vw;
-    font-weight: bolder;
-    }
-    .tree-name2{
-        font-family: "Roboto";
-    font-size: 4vh;
-    margin-top: 1.2vh;
-    position: relative;
-    right: 12.3vw;
-    font-weight: bolder;
-    }
-    .tree-name3{
-        font-family: "Roboto";
-    font-size: 4vh;
-    margin-top: 1.2vh;
-    position: relative;
-    right: 15.5vw;
-    font-weight: bolder;
-    }
-    .heading1{
-        font-family: "Bebas Neue";
-        position: relative;
-        top: 0vh;
-        left: 36vw;
-        font-size: 3.5vw;
-        color: white;
-    }
-    .heading2{
-        font-family: "Bebas Neue";
-        font-size: 3.5vw;
-        position: relative;
-        bottom: 12vh;
-        left: 45vw;
-        color: white;
-    }
-    .Payment-btn{
-        background-color: white;
-        width: fit-content;
-        height: 6vh;
-        position: relative;
-        margin: auto;
-        border-radius: 25px;
-        border-color: transparent;
-        margin-top: 5vh;
-        font-family: "Roboto";
-        font-weight: 1000;
-        font-size: larger;
-        color: rgb(36, 115, 242);
-    }
-    
-    
+.tree-details {
+    text-align: center;
+}
+
+.tree-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.tree-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+/* Button container styling */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Add to cart button styling */
+.add-cart-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-cart-btn:hover {
+    background-color: #2980b9;
+}
+
+.cart-icon {
+    margin-left: 0.5rem;
+    width: 20px;
+    height: 20px;
+}
+
+/* Price button styling */
+.price-btn {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.price-btn:hover {
+    background-color: #bdc3c7;
+}
+
+/* Payment button styling */
+.payment-btn {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    transition: background-color 0.3s;
+}
+
+.payment-btn:hover {
+    background-color: #219150;
+}
+
+/* Footer styling */
+.footer {
+    width: 100%;
+    padding: 1rem 0;
+    background: linear-gradient(to right, rgb(22, 86, 188), rgb(0, 18, 44));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+}
